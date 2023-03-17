@@ -38,3 +38,9 @@ div{
    right: 0;
    bottom: 0;
    display: inline;
+   z-index: 2rem;
+   background-color: green;
+   color:white;
+   border: 0.2rem solid blue;
+   padding: 0.2rem
+   font-size 2rem;
