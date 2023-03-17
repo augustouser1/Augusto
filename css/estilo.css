@@ -67,3 +67,8 @@ ol{
 section img{
    float:left
 }
+main.grid{
+ display:grid;
+ grid-template-columns:auto auto auto;
+ gap: 2rem
+}
