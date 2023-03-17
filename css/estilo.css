@@ -44,3 +44,14 @@ div{
    border: 0.2rem solid blue;
    padding: 0.2rem
    font-size 2rem;
+}
+h1#page1{
+   color:blueviolet;
+   border: 0.3rem dashed blue;
+}
+img{
+   width:20rem;
+}
+ul{
+  list-style-type: square;
+}
