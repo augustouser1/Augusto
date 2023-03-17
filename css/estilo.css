@@ -19,7 +19,7 @@ p.paragrafo{
    word-spacing: 2rem;
    color: rgb(231, 221, 221);
    font:italic small-caps bold 2rem monospace;
-   text-shadow: 0.2rem 0.2rem 0.3rem, dark rgb(0, 0, 0) 0 0 1rem, rgb(18, 2, 241) 0 0 2  rgb(1, 1, 77);
+   text-shadow: 0.2rem 0.2rem 0.3rem, dark rgb(255, 245, 245) 0 0 1rem, rgb(18, 2, 241) 0 0 2  rgb(1, 1, 77);
 }
 a:link,a:visited,a:active{
    text-decoration:none;
@@ -42,8 +42,8 @@ div{
    background-color: green;
    color:white;
    border: 0.2rem solid blue;
-   padding: 0.2rem
-   font-size 2rem;
+   padding: 0.2rem;
+   font-size: 0.2rem;
 }
 h1#page1{
    color:blueviolet;
@@ -72,3 +72,22 @@ main.grid{
  grid-template-columns:auto auto auto;
  gap: 2rem
 }
+main.flexbox{
+   display: flex;
+   height: 100vh;
+   justify-content:center;
+   align-items: center;
+}
+main.flexbox article{
+   background-color: lightcoral;
+   margin: 1rem;
+   padding: 2rem;
+}
+body{
+ background-color:rgb(231, 4, 4);
+
+
+
+
+}
+
