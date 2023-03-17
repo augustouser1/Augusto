@@ -1,0 +1,40 @@
+h1 {color:rgb(59, 6, 248);font-size:34px;
+}
+h2,h3,h4,h5,h6{
+  color:rgba(0, 0, 0, 0.932);  
+}
+body ul li{
+   color:green;
+
+}
+p {
+   text-decoration:underline rgb(6, 84, 230) double 0.05rem;
+   text-indent:1rem
+}
+p.paragrafo{
+   text-transform:uppercase;
+   text-align:center;
+   letter-spacing: 1rem;
+   line-height:2rem;
+   word-spacing: 2rem;
+   color: rgb(231, 221, 221);
+   font:italic small-caps bold 2rem monospace;
+   text-shadow: 0.2rem 0.2rem 0.3rem, dark rgb(0, 0, 0) 0 0 1rem, rgb(18, 2, 241) 0 0 2  rgb(1, 1, 77);
+}
+a:link,a:visited,a:active{
+   text-decoration:none;
+   color:blueviolet
+}
+a:hover{
+   color:cadetblue;
+}
+footer{
+   clear:both; 
+   background: white url("../img/Logo_CEFET-MG.png") no-repeat left bottom;
+   height:1rem;
+}
+div{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   display: inline;
